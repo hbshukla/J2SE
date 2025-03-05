@@ -1,4 +1,4 @@
-package day4_old;
+package day4;
 
 public class EvenOrOddNumber {
 
