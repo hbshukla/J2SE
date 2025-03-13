@@ -1,12 +1,12 @@
 package Assignment;
 
-public class CountNumberOfDigits {
+public class Temp1 {
 
     public static void main(String[] args) {
 
         int evencount = 0; // Initialize variable
         int oddcount=0; // Initialize variable
-        for (int i = 1; i <= 17; i++) {
+        for (int i = 1; i <= 100; i++) {
 
             if (i % 2 == 0) {
                 evencount =evencount+1;//increase by 1 to Count for Even Numbers and store in "evencount" variable
