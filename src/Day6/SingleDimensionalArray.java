@@ -22,18 +22,16 @@ public class SingleDimensionalArray {
 	
 	
 //------------------------------------------------------------------------
-		
 	//Approach2
-	
 //------------------------------------------------------------------------
 	
-	int b[]= {100,200,300,400,500,600,700,800,900,1000,1100};
+	int b[]= {100,200,300,400,500,600,700};
 
 	//find length of array
 	System.out.println(a.length);
 	System.out.println(b.length);
 	System.out.println(a[4]);//4 is index number
-	System.out.println(b[8]);//8 is index number
+	System.out.println(b[6]);//8 is index number
 	System.out.println();
 	//Normal Loop
 	for(int i=0;i<a.length; i++)
@@ -43,6 +41,8 @@ public class SingleDimensionalArray {
 	
 	//Enhanced for loop / for..each loop
 	System.out.println();
+	System.out.println("Enhanced For-Loop:");
+	
 	for(int x:b)
 		System.out.println(x);
 	}
