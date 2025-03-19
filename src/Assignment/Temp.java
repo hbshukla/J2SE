@@ -1,33 +1,17 @@
 package Assignment;
-
+import java.util.Scanner;
 public class Temp {
-
 	public static void main(String[] args) {
-
-		int c=0;
-		for (int i=1; i<=10; i++)
-		{
-			
-			if(i%2==0)
-			{
-					
-				c+=1;
-				System.out.println("EVEN : "+i) ;
-				System.out.println("EVEN : "+ c) ;
-				
-			}
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter String");
 	
-			else
-			{
-				System.out.println("ODD  : "+i);
-			}
-		}
-		
-		
-		//System.out.println(i);
-		
-				
-		}
-		
+	String str = sc.nextLine();
+	
+	StringBuilder sb = new StringBuilder(str);
+	StringBuilder rev= sb.reverse(); 
+	System.out.println(rev);
+	sc.close();
+	}
+			
 	}
 

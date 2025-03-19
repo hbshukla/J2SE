@@ -1,6 +1,8 @@
 package Assignment;
+
 import java.util.Scanner;
-public class Temp1 {
+
+public class StringBuilderClass1 {
 
 	public static void main(String[] args) {
 
