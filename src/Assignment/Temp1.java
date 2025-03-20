@@ -1,25 +1,18 @@
 package Assignment;
-import java.util.Scanner;
+//import java.util.Scanner;
 public class Temp1 {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Number");
-		int i = sc.nextInt();
-
-//Approach-1  
-// Convert the integer to a string
-        String str = Integer.toString(i);
-		StringBuilder sb= new StringBuilder(str);
-		StringBuilder rev = sb.reverse();
-		System.out.println(rev);
-
-//Approach-2
-		StringBuilder sb1= new StringBuilder();
-		sb1.append(i);
-		StringBuilder rev1 = sb1.reverse();
-		System.out.println(rev1);
-	sc.close();
+		int []a= {1,2,3,4,5};
+		
+		/*for(int x:a)
+		{
+		System.out.println(x);
+		}*/
+		for(int i=0; i<=a.length-1;i++)
+		{
+			System.out.println(a[i]);
+		}
 	}
 }
