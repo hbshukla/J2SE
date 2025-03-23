@@ -14,8 +14,9 @@ public class CountNumberOfDigits {
 
             } else 
             {
-                oddcount+=1;
-            	System.out.println("ODD  : " + i);
+                //oddcount+=1;
+            	oddcount++;
+                System.out.println("ODD  : " + i);
                 
             }
              

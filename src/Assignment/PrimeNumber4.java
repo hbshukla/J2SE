@@ -2,7 +2,7 @@ package Assignment;
 
 import java.util.Scanner;
 
-public class Temp1 {
+public class PrimeNumber4 {
 
 	public static void main(String[] args) {
 
