@@ -1,4 +1,4 @@
-package Day6_Array;
+package day6_Array;
 
 public class TwoDimensionalArray {
 

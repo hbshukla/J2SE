@@ -1,4 +1,4 @@
-package Day6_Array;
+package day6_Array;
 /*
  * Declare an array
  * Add value into array
