@@ -8,7 +8,7 @@ public class PalinDromeNumber {
 		
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Number : ");
-		int num=sc.nextInt();
+		int num=sc.nextInt();//Read the integer input from the user and store it in the 'num' variable
 		
 		int originalNum=num; // Store the Original Number 
 		int revnum=0;

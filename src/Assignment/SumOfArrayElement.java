@@ -12,6 +12,7 @@ public class SumOfArrayElement {
 			System.out.println();
 			sum=sum+arr;
 			
+			
 			if(arr%2==0)
 			{
 				System.out.println(arr + " = Even Number");
@@ -23,7 +24,8 @@ public class SumOfArrayElement {
 		
 		}
 		
-		System.out.println("Total of Array Number is : " + sum);
+		System.out.println("Total Sum of Array Number is : " + sum);
+		
 					
 		
 	}

@@ -1,4 +1,4 @@
-package day7;
+package day7_Array;
 //import java.util.Arrays;
 
 public class SearchRepeatElementInArray1 {

@@ -1,13 +1,14 @@
-package day7;
+package day7_Array;
+
 
 public class SearchRepeatElementInArray2 {
     public static void main(String[] args) {
         int[] a = {10, 100, 20, 30, 40, 50, 60, 70, 80, 90, 100, 20, 20, 20, 30, 50, 100,100};
-
+        
         // Use an auxiliary array to mark processed elements
         boolean[] processed = new boolean[a.length];
 
-        // Count and print how many times each element repeats in a
+        // Count and print how many times e	ach element repeats in a
        for (int i = 0; i < a.length; i++) {
             // Skip if this element has already been processed
             if (processed[i]) {
