@@ -16,7 +16,7 @@ public class PrimeInArray {
 
 // for (int i = 0; i <= a.length - 1; i++) //This is also valid
 
-		for (int x : a) { // in Outer loop, Storing array value to "x" variable
+		for (int x : a) { // in Outer loop, Storing array value to "x" variable (enhanced for loop)
 			boolean isPrime = true;
 
 // Check if the number is divisible by any number between 2 and x or a[i] - 1

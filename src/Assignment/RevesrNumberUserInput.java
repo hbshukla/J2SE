@@ -14,11 +14,10 @@ public class RevesrNumberUserInput {
 		while(num !=0)
 		{
 			revnum=revnum*10+num%10;//Building Reverse Number
-			num=num/10;
+			num=num/10; //Remove last digit
 		}
 		System.out.println(revnum);
-		int mod=489%10;
-		System.out.println(mod);
+		
 		sc.close();
 	}
 

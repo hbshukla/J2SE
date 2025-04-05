@@ -22,7 +22,6 @@ public class SearchRepeatElementInArray {
             {
                 continue;
             }
-            //System.out.println(b[i]);
             int count = 0;
 
             // Count how many times b[i] appears in a

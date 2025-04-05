@@ -5,7 +5,7 @@ public class SearchElementInArray1 {
 	public static void main(String[] args) {
 		
 		int []a= {10,20,30,40,50,60,70,80,90,100};
-		int search_element=300;
+		int search_element=40;
 		boolean status=false;
 		for(int i=0;i<a.length;i++)
 		{
