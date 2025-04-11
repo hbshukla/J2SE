@@ -1,6 +1,6 @@
 package Assignment;
 
-public class ReverseNumber {
+public class ReverseNumber1 {
 
 	public static void main(String[] args) 
 	{
@@ -10,6 +10,7 @@ public class ReverseNumber {
 		while(num!=0)
 		{
 			//int mod=num%10; //Extract the last digit
+			
 			revnum=revnum*10+num%10; //build  the reverse number
 			num=num/10; //Remove the last digit from the original number
 		}

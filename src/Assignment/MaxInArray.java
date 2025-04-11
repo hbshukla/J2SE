@@ -1,5 +1,7 @@
 package Assignment;
 
+import java.util.Arrays;
+
 public class MaxInArray {
 
 	public static void main(String[] args) {
@@ -14,6 +16,8 @@ public class MaxInArray {
 			}
 		}System.out.println("Max Number is : "+ max);
 
+		int max1 = Arrays.stream(a).max().getAsInt();
+		System.out.println(max1);
 	}
 
 }

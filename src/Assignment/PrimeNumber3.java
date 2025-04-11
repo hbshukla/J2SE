@@ -27,7 +27,7 @@ public class PrimeNumber3 {
 	}
 
 //Method to check if a number is prime
-	private static boolean isPrime(int number) {
+	public static boolean isPrime(int number) {
 		if (number <= 1) {
 			return false; // Numbers less than 2 are not prime
 		}
